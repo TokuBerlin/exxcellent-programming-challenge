@@ -1,25 +1,27 @@
 package de.exxcellent.challenge;
+import  de.exxcellent.challenge.Constants.*;
+
 
 /**
- * The entry class for your solution. This class is only aimed as starting point and not intended as baseline for your software
- * design. Read: create your own classes and packages as appropriate.
- *
- * @author Benjamin Schmid <benjamin.schmid@exxcellent.de>
+ * Entry class for weatherdata coding challenge
+ * @author Thomas Kuhn <thomas.kuhn.berlin@gmail.com>
  */
-public final class App {
+public final class App
+{
 
     /**
-     * This is the main entry method of your program.
+     * This is the main entry method the program.
      * @param args The CLI arguments passed
      */
-    public static void main(String... args) {
+    public static void main(String... args)
+    {
+        // determine the values in question
+        String dayWithSmallestTempSpread    = "Weather  solution not implemented";
+        String teamWithSmallestGoalSpread   = "Football solution not implemented";
 
-        // Your preparation code …
-
-        String dayWithSmallestTempSpread = "Someday";     // Your day analysis function call …
+        // print out the fruits of our labour
         System.out.printf("Day with smallest temperature spread : %s%n", dayWithSmallestTempSpread);
-
-        String teamWithSmallestGoalSpread = "A good team"; // Your goal analysis function call …
         System.out.printf("Team with smallest goal spread       : %s%n", teamWithSmallestGoalSpread);
     }
+
 }
