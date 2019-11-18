@@ -1,8 +1,8 @@
+package de.exxcellent.challenge;
+
 /**
  * collection of general constants for the convenience of having them all in once cosy place
  */
-package de.exxcellent.challenge;
-
 public final class Constants
 {
     public static final boolean debugMode                   = false;
