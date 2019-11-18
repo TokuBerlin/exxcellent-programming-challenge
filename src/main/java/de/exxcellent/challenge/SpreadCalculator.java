@@ -19,10 +19,11 @@ public class SpreadCalculator
     private String columnName_max;
 
 
+
     /**
      * This method reads data from the given file and returns the number of the day with the lowest temparatur spread as a string.
      *
-     * @param weatherCsvFile        The CSV file containing the weatherdata. The leading row of the file is expected to contain column names
+     * @param xdataCsvFile          The CSV file containing the weatherdata. The leading row of the file is expected to contain column names
      *                              Day,MxT,MnT,AvT,AvDP,1HrP TPcpn,PDir,AvSp,Dir,MxS,SkyC,MxR,Mn,R AvSLP
      * @param xcolumnName_result    The CSV column that contains the result identifier (e.g. the name or ID)
      * @param xcolumnName_min       The CSV column that contains the minimum value of the data row
@@ -39,10 +40,8 @@ public class SpreadCalculator
 
 
     /**
-     * This method reads data from the given file and returns the number of the day with the lowest temparatur spread as a string.
-     *
-     * @param weatherCsvFile    The CSV file containing the weatherdata. The leading row of the file is expected to contain column names
-     *                          Day,MxT,MnT,AvT,AvDP,1HrP TPcpn,PDir,AvSp,Dir,MxS,SkyC,MxR,Mn,R AvSLP
+     * This method does the actual work of looping over all rows of the data file returning the row identifier of the (first) data row
+     * with the minimal spread found
      */
     public String getResultWithSmallestSpread()
     {
