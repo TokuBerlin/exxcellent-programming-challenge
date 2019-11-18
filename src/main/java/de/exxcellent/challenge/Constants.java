@@ -1,11 +1,11 @@
 /**
- * collection of general constants
+ * collection of general constants for the convenience of having them all in once cosy place
  */
 package de.exxcellent.challenge;
 
 public final class Constants
 {
-    public static final boolean debugMode                   = true;
+    public static final boolean debugMode                   = false;
     public static final String FILEPATH_WEATHER             = "weather.csv";
     public static final String FILEPATH_FOOTBALL            = "football.csv";
 
